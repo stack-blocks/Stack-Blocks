@@ -1,0 +1,75 @@
+.part1{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.part1:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+.part2{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.part2:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+.part3{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.part3:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+.part4{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.part4:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+.part5{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.part5:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+.part6{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.part6:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+#contu {
+    animation-name: wobble;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes wobble {
+    0% {transform: translateX(0) rotate(0deg);}
+    15% {transform: translateX(-3px) rotate(-5deg);}
+    30% {transform: translateX(15px) rotate(3deg);}
+    45% {transform: translateX(-15px) rotate(-3deg);}
+    60% {transform: translateX(9px) rotate(2deg);}
+    75% {transform: translateX(-6px) rotate(-1deg);}
+    100% {transform: translateX(0) rotate(0deg);}
+  }
